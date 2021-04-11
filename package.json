@@ -1,9 +1,13 @@
 {
-  "name": "Internship-co",
+  "name": "eiltaku",
   "version": "1.0.0",
-  "description": "WEB Application to manage Internships for the Engineering School of the Opal Coast - Calais",
+  "description": "Social Media app for EIL'Taku Club members",
   "main": "server.js",
-  "author": "Omar DAKKAK",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Omar Dakkak",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -11,16 +15,12 @@
     "express": "^4.17.1",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.3",
+    "mongoose": "^5.10.10",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
-    "validator": "^13.5.2"
+    "validator": "^13.1.17"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "nodemon": "^2.0.6"
   }
 }
